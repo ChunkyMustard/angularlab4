@@ -1,0 +1,30 @@
+.shelf
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+th, td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.X
+{
+    border: none;
+}
+
+form
+{
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin-top: 50px;
+}
+
+input
+{
+    margin-bottom: 25px;
+}
